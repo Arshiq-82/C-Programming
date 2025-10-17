@@ -6,17 +6,16 @@ Age : 17*/
 #include <stdio.h>
 
 int main() {
-    int num;
-
-    // Input number from user
-    printf("Enter a number: ");
-    scanf("%d", &num);
-
-    // Check even or odd using modulus operator
-    if (num % 2 == 0)
-        printf("%d is an EVEN number.\n", num);
-    else
-        printf("%d is an ODD number.\n", num);
-
-    return 0;
+    
+int num;
+printf("ENTER THE NUMBER: ");
+scanf("%d", &num);
+if(num % 2 == 0){ 
+printf(" THE NUM IS EVEN");
+}
+else{
+printf("THE NUM IS ODD");
+    
+}
+return 0;
 }
